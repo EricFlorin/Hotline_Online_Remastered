@@ -35,7 +35,8 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
+	
 	// Sets default values for this pawn's properties
 	APerson();
 

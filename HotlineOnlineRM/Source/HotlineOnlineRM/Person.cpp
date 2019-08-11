@@ -24,7 +24,7 @@ APerson::APerson()
 
 	USpringArmComponent* SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
 	SpringArm->TargetArmLength = 500.0f;
-	SpringArm->bEnableCameraLag = true;
+	SpringArm->bEnableCameraLag = false;
 	SpringArm->bEnableCameraRotationLag = false;
 	SpringArm->bUsePawnControlRotation = false;
 	SpringArm->CameraLagSpeed = 2.0f;
